@@ -1,3 +1,4 @@
+
 <p align="center">
 <img src="https://camo.githubusercontent.com/460d9e93600497c82515ce338f834a230f570fde783e2cd609b747f2f68c2b5f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d312e302d6f72616e6765">
   
@@ -12,9 +13,8 @@
 <h1 align="center">Send anonymous SMS via Terminal</h1>
 <p align="center">This tool was tested over Linux and Windows, but it was created to work with every Operative System.</p>
 <br>
+<h2>Support</h2>
 <h3">This project was made with ♥ for you, but if you want to support this project<br>you can donate some coins in my Patreon profile.</h3>
 <br><br>
 <p><a href="https://www.patreon.com/polartech_wh"><img src="https://user-images.githubusercontent.com/104868654/167985820-7f25298b-07d9-4308-a133-13e9f21424ef.png"></a></p>
 
-
-<h2>HOW TO INSTALL</h2>
