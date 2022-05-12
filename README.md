@@ -18,3 +18,68 @@
 <br><br>
 <p><a href="https://www.patreon.com/polartech_wh"><img src="https://user-images.githubusercontent.com/104868654/167985820-7f25298b-07d9-4308-a133-13e9f21424ef.png"></a></p>
 
+<details>
+<summary><h2>Read before download</h2></summary>
+  
+I decided to make this script with the paid service because the free SMS is only available in some countries not specified by the provider. So I decided to do it like this to offer a better experience.
+
+I recommend buying one of the textbelt.com packages, there are very affordable and you have two purchase options:
+  
+1. Sign up to buy credits and an api
+2. Buy credits and an api without registration. (Recommended)
+  
+There are packages starting at $3 for 50 SMS that you can use in the US/Canada
+or 5 dollars for 30 SMS that you can use anywhere in the world.
+  <table>
+    <tr>
+      <th>
+<h3>REGIONS AND BASIC PLAN PRICES</h3>
+      </th>
+    </tr>
+    <tr>
+      <td>
+<table>
+   <thead>
+      <tr>
+         <th>REGION</th>
+         <th>QUOTA</th>
+         <th>PRICE</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr class="US/CA">
+         <td>US/CANADA</td>
+         <td>50 Texts</td>
+         <td>$3 USD</td>
+      </tr>
+      <tr class="EU">
+         <td>Europe</td>
+         <td>30 Texts</td>
+         <td>$5 USD</td>
+      </tr>
+      <tr class="ASI/OCE">
+         <td>Asia/Oceania</td>
+         <td>30 Texts</td>
+         <td>$5 USD</td>
+      </tr>
+       <tr class="ME/AFR">
+         <td>MiddleEast/Africa</td>
+         <td>25 Texts</td>
+         <td>$5 USD</td>
+      </tr>
+      <tr class="AME">
+         <td>Americas</td>
+         <td>30 Texts</td>
+         <td>$5 USD</td>
+      </tr>
+         <tr class="WW">
+         <td>Worldwide</td>
+         <td>30 Texts</td>
+         <td>$5 USD</td>
+      </tr>
+   </tbody>
+</table>
+              </td>
+    </tr>
+  </table>
+</details>
