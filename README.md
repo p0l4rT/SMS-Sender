@@ -112,10 +112,7 @@ or 5 dollars for 30 SMS Worldwide.
     </il>
     <il>
      <h3>3. Install required modules</h3>
-      <code>pip install -r requierements.txt</code><br>
-      or
-      <br>
-      <code>pip3 install -r requierements.txt</code><br>
+      <code>pip install -r requierements.txt</code> or <code>pip3 install -r requierements.txt</code><br>
     </il>
     <il>
      <h3>4. Set permissions</h3>
@@ -123,6 +120,35 @@ or 5 dollars for 30 SMS Worldwide.
     </il>
     <il>
      <h3>5. Reboot your pc</h3>
+    </il>
+  </ul>
+</details>
+
+<details>
+<summary><h2>Preparing</h2></summary>
+  <ul>
+    <il>
+    <h3>1. Set your API KEY in credentials.ini</h3><br>
+      <p>If you are on windows you can edit the file with notepad. Save it and ready</p>
+      <img src="https://user-images.githubusercontent.com/104868654/168010107-9f96696e-817d-4c95-bd53-466b517f5297.png">
+      <br><br>
+      <p>If you are on linux you can edit it with any text editor, IDE or using:</p>
+      <code>sudo nano credentials.ini</code><br><br>
+      <img src="https://user-images.githubusercontent.com/104868654/168011572-6cfd37a7-5bfb-483f-95cc-ebfe9841501b.PNG">
+    </il>
+  </ul>
+</details>
+
+<details>
+<summary><h2>How to use</h2></summary>
+  <ul>
+    <il>
+      <h3>1. Set the SMS-Sender path</h3>
+      <code>cd [SMS-Sender PATH]</code>
+    </il>
+    <il>
+      <h3>2. Run the script</h3>
+      <code>python3 sendsms.py</code> or <code>python sendsms.py</code>
     </il>
   </ul>
 </details>
