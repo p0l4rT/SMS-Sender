@@ -89,6 +89,40 @@ or 5 dollars for 30 SMS Worldwide.
   
   Do you wanna buy any plan?<br>
   https://textbelt.com/purchase/
-
   
+</details>
+
+<details>
+<summary><h2>Installation</h2></summary>
+  <ul>
+    <il>
+      <h3>1. Install python3</h3>
+      <b>UBUNTU/DEBIAN</b><br>
+      <code>sudo apt-get install python3</code><br><br>
+      <b>FEDORA</b><br>
+      <code>sudo dnf install python3</code><br><br>
+      <b>ARCH LINUX (Any Arch based distro. E.g.: Manjaro)</b><br>
+      <code>sudo pacman -S python3</code>
+    </il>
+    <il>
+     <h3>2. Clone this git</h3>
+      <code>cd [PATH DIR]</code><br>
+      <code>git clone https://github.com/p0l4rT/SMS-Sender.git</code><br>
+      <code>cd SMS-Sender</code>
+    </il>
+    <il>
+     <h3>3. Install required modules</h3>
+      <code>pip install -r requierements.txt</code><br>
+      or
+      <br>
+      <code>pip3 install -r requierements.txt</code><br>
+    </il>
+    <il>
+     <h3>4. Set permissions</h3>
+      <code>sudo chmod +x *</code><br>
+    </il>
+    <il>
+     <h3>5. Reboot your pc</h3>
+    </il>
+  </ul>
 </details>
