@@ -1,3 +1,7 @@
+![version-1.0](https://img.shields.io/badge/version-1.0-orange)
+![MIT](https://img.shields.io/badge/license-MIT-blue)
+![Python3](https://img.shields.io/badge/language-Python3-yellow)
+
 <p align="center"><img src="https://user-images.githubusercontent.com/104868654/167976018-0f0b60a7-3943-4035-a91a-105c7bb89154.png"></p>
 
 <h1 align="center">Send anonymous SMS via Terminal</h1>
