@@ -21,15 +21,19 @@
 <details>
 <summary><h2>Read before download</h2></summary>
   
-I decided to make this script with the paid service because the free SMS is only available in some countries not specified by the provider. So I decided to do it like this to offer a better experience.
+I decided to make this script with the paid service because the free SMS is only available in some countries not specified by the provider.
+So I decided to do it like this to offer a better experience.
 
-I recommend buying one of the textbelt.com packages, there are very affordable and you have two purchase options:
+I recommend buying one of the textbelt.com pLANS, there are very affordable and you can send SMS without waiting 24 hours and at any time.
+
+<h3>You have two purchase options:</h3>
   
 1. Sign up to buy credits and an api
 2. Buy credits and an api without registration. (Recommended)
   
 There are packages starting at $3 for 50 SMS that you can use in the US/Canada
-or 5 dollars for 30 SMS that you can use anywhere in the world.
+or 5 dollars for 30 SMS Worldwide.
+  
   <table>
     <tr>
       <th>
@@ -48,7 +52,7 @@ or 5 dollars for 30 SMS that you can use anywhere in the world.
    </thead>
    <tbody>
       <tr class="US/CA">
-         <td>US/CANADA</td>
+         <td>US/Canada</td>
          <td>50 Texts</td>
          <td>$3 USD</td>
       </tr>
@@ -82,4 +86,9 @@ or 5 dollars for 30 SMS that you can use anywhere in the world.
               </td>
     </tr>
   </table>
+  
+  Do you wanna buy any plan?<br>
+  https://textbelt.com/purchase/
+
+  
 </details>
