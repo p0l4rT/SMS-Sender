@@ -150,5 +150,12 @@ or 5 dollars for 30 SMS Worldwide.
       <h3>2. Run the script</h3>
       <code>python3 sendsms.py</code> or <code>python sendsms.py</code>
     </il>
+    <il>
+      <h3>3. Select option 2 and enter the number and message.</h3><br>🟡 The number must be written in international format:<br>
+      <b>+[COUNTRY CODE][TARGET NUMBER]</b>
+    </il>
+    <il>
+      <h3>4. Ready!, your message was sent... or maybe no. I don't know.</h3>
+    </il>
   </ul>
 </details>
