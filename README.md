@@ -159,3 +159,51 @@ or 5 dollars for 30 SMS Worldwide.
     </il>
   </ul>
 </details>
+
+<details>
+<summary><h2>Details</h2></summary>
+  <ul>
+    <il>
+      <h3>0. Generate an API (Only new users)</h3>
+    </il>
+    <il>
+      If you have never bought an SMS plan, you will need a KEY to be able to buy SMS messages.<br>After generating your API KEY, save it very well for future purchases or at the end of your quota, generate a new API KEY.
+    </il>
+    <il>
+      <h3>1. Buy credits</h3>
+    </il>
+    <il>
+      If you already have your own API KEY or have generated one, you need to top up credits.
+    </il>
+    <il>
+      <h3>2. Send message</h3>
+    </il>
+    <il>
+      You can send SMS. The purpose of this tool.
+    </il>
+    <il>
+      <h3>3. Check yout SMS quota</h3>
+    </il>
+    <il>
+      You can check how many SMS are available in your account.
+    </il>
+    <il>
+      <h3>4. Restart sript</h3>
+    </il>
+    <il>
+      The script automatically restarts loading the necessary configuration.
+    </il>
+    <il>
+      <h3>5. Send SMS for free</h3>
+    </il>
+    <il>
+      😏
+    </il>
+    <il>
+      <h3>99. Exit</h3>
+    </il>
+    <il>
+      The script ends.
+    </il>
+  </ul>
+</details>
