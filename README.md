@@ -104,7 +104,7 @@ or 5 dollars for 30 SMS Worldwide.
       <b>ARCH LINUX (Any Arch based distro. E.g.: Manjaro)</b><br>
       <code>sudo pacman -S python3</code><br><br>
       <b>WINDOWS (winget)</b><br>
-      <code> winget install --id Python 3.10</code>
+      <code> winget install --id 9PJPW5LDXLZ5</code>
     </il>
     <il>
      <h3>2. Clone this git</h3>
