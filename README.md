@@ -1,7 +1,7 @@
 
 <p align="center">
 <img src="https://camo.githubusercontent.com/460d9e93600497c82515ce338f834a230f570fde783e2cd609b747f2f68c2b5f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d312e302d6f72616e6765">
-  
+
 <img src="https://camo.githubusercontent.com/2bb630e2707a04100cd270fd944d22816241c37b68a5a1629257920c65e17891/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c7565">
 
 <img src="https://camo.githubusercontent.com/1bab4c20414ff279288207bdf3a4e891389390ed8f7ffe330617182214046795/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c616e67756167652d507974686f6e332d79656c6c6f77">
@@ -20,20 +20,20 @@
 
 <details>
 <summary><h2>Read before download</h2></summary>
-  
+
 I decided to make this script with the paid service because the free SMS is only available in some countries not specified by the provider.
 So I decided to do it like this to offer a better experience.
 
 I recommend buying one of the textbelt.com pLANS, there are very affordable and you can send SMS without waiting 24 hours and at any time.
 
 <h3>You have two purchase options:</h3>
-  
+
 1. Sign up to buy credits and an api
 2. Buy credits and an api without registration. (Recommended)
-  
+
 There are packages starting at $3 for 50 SMS that you can use in the US/Canada
 or 5 dollars for 30 SMS Worldwide.
-  
+
   <table>
     <tr>
       <th>
@@ -86,10 +86,10 @@ or 5 dollars for 30 SMS Worldwide.
               </td>
     </tr>
   </table>
-  
+
   Do you wanna buy any plan?<br>
   https://textbelt.com/purchase/
-  
+
 </details>
 
 <details>
@@ -98,13 +98,24 @@ or 5 dollars for 30 SMS Worldwide.
     <il>
       <h3>1. Install python3</h3>
       <b>UBUNTU/DEBIAN</b><br>
-      <code>sudo apt-get install python3</code><br><br>
+      ```
+      sudo apt-get install python3
+      ```
+      <br><br>
       <b>FEDORA</b><br>
-      <code>sudo dnf install python3</code><br><br>
+      ```
+      sudo dnf install python3
+      ```
+      <br><br>
       <b>ARCH LINUX (Any Arch based distro. E.g.: Manjaro)</b><br>
-      <code>sudo pacman -S python3</code><br><br>
+      ```
+      sudo pacman -S python3
+      ```
+      <br><br>
       <b>WINDOWS (winget)</b><br>
-      <code> winget install --id 9PJPW5LDXLZ5</code>
+      ```
+      winget install --id Python.Python.3.10
+      ```
     </il>
     <il>
      <h3>2. Clone this git</h3>
