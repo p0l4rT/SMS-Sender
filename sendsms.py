@@ -1,4 +1,4 @@
-import requests, sys, os, time, configparser, urllib.request, threading, string, base64, urllib.parse, random, urllib.parse
+import requests, sys, os, time, configparser, urllib.request, threading, string, base64, urllib.parse, random, urllib.parse, datetime
 
 
 try:
@@ -81,8 +81,27 @@ def banner():
 def nevergonna():
 	if os.name == 'nt':
 		os.system("start _ngw.bat")
+		print ("\n\033[91m Bromita 🤑 \033[0m\n")
 	else:
 		os.system("bash _ngu.sh")
+		print ("\n\033[91m Bromita 🤑 \033[0m\n")
+
+def saveLog():
+
+	log_ = "Number: " + number + "\nText: " + message + "\nResponse from TextBelt API: " + resp.text
+
+	try:
+		if not os.path.exists ("logs"):
+			os.makedirs ("logs")
+			log_file = open("logs/log_{}.txt".format(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")), "a")
+			log_file.write("{} - Error: {}\n".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), log_))
+			log_file.close()
+		elif os.path.exists ("logs"):
+			log_file = open("logs/log_{}.txt".format(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")), "a")
+			log_file.write("{} - Error: {}\n".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), log_))
+			log_file.close()
+	except IOError as e:
+    		print("Error: couldn't write the .log file.: {}".format(e))
 
 
 #BANNERS
@@ -131,9 +150,9 @@ k.   '0MMMMMMMMMWO,         .:kNMK,         .dd.   'odddd;    ,Kd    ;Xx.   .xWM
 d.   cNMMMMMMMMMMMXd,.   .,l0WMMMO'       . ;o' . .kMMMMMk. . 'kl   .oWX:    :XM
 \033[96m
 \n
-			<< SEND SMS Anonymously >>\n 
+			<< SEND SMS Anonymously >>\n
 			     IG: polartech_wh
-				     \n 
+				     \n
 \033[92m--------------------------------------------------------------------------------\033[0m
 	"""
 
@@ -199,16 +218,19 @@ if option == 2:
 				})
 	print(resp.text)
 	if '"success":true' in resp.text:
+		saveLog()
 		print("\033[92m Ready!, message was sent. \033[0m\n")
 		time.sleep(2)
 		clr()
 		startscript()
 
 	if '"success":false' in resp.text:
+		saveLog()
 		pedillos()
 		startscript()
 
 	if '"error":false' in resp.text:
+		saveLog()
 		print("\033[92m The message was not sent \033[0m\n")
 		time.sleep(2)
 		clr()
@@ -222,7 +244,7 @@ if option == 3:
 	input("\nPress any key to ontinue...")
 	clr()
 	startscript()
-	
+
 
 if option == 4:
 	clr()
