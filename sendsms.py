@@ -96,10 +96,16 @@ def saveLog():
 			log_file = open("logs/log_{}.txt".format(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")), "a")
 			log_file.write("{} - Error: {}\n".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), log_))
 			log_file.close()
+
+			print ("You can check the log in the /logs/ folder.")
+			time.sleep (3)
+
 		elif os.path.exists ("logs"):
 			log_file = open("logs/log_{}.txt".format(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")), "a")
 			log_file.write("{} - Error: {}\n".format(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), log_))
 			log_file.close()
+			print ("You can check the log in the /logs/ folder.")
+			time.sleep (3)
 	except IOError as e:
     		print("Error: couldn't write the .log file.: {}".format(e))
 
